@@ -22,17 +22,18 @@ let curr_track = document.createElement('audio');
 // Define the tracks that have to be played
 let track_list = [
   {
+    name: "Psyche",
+    artist: "Wolf Asylum",
+    image: "https://img.freepik.com/premium-photo/abstract-rainbow-colorful-bright-feather-closeup-up-macro-view-background-plumage-texture-with-dew-drops_753134-644.jpg",
+    path: "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/no_curator/Wolf_Asylum/Dogflower/Wolf_Asylum_-_06_-_Psyche_Adaption_Mix.mp3?download=1&name=Wolf%20Asylum%20-%20Psyche%20-%20Adaption%20Mix.mp3",
+  },
+  {
     name: "Enthusiast",
     artist: "Tours",
     image: "https://images.pexels.com/photos/3100835/pexels-photo-3100835.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=250&w=250",
     path: "https://files.freemusicarchive.org/storage-freemusicarchive-org/music/no_curator/Tours/Enthusiast/Tours_-_01_-_Enthusiast.mp3"
   },
-  {
-    name: "Perfect",
-    artist: "Ed Sheeran",
-    image: "https://img.freepik.com/premium-photo/abstract-rainbow-colorful-bright-feather-closeup-up-macro-view-background-plumage-texture-with-dew-drops_753134-644.jpg",
-    path: "https://pagalworld.com.mx/perfect/get/?urls=dGltZ0F0aUhsK2taN043UjF0QXFJQjdBN3d5N3JLZjJ3K2drbnViUXN6eUNRcEl6NHhZL0dlNVY2dkw1dkVEQkJwc0kyY1VZTXYyWUhqZElxV2Yxd3VUM0tNL1JEa0RoK3pOclIzT3BsYkU9&names=Perfect.mp3",
-  },
+  
   {
     name: "Night Owl",
     artist: "Broke For Free",
